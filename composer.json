@@ -1,0 +1,13 @@
+{
+    "name": "greenbicycle/test-composer-package",
+    "description": "Test Composer Package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeff Davis",
+            "email": "jeff@greenbicycle.net"
+        }
+    ],
+    "require": {}
+}
