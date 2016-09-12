@@ -9,5 +9,14 @@
             "email": "jeff@greenbicycle.net"
         }
     ],
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~5.5"
+    }
+    "autoload": {
+        "psr-4": {
+            "greenbicycle\\TestComposerPackage\\": "src"
+        }
+    }
+}
 }
