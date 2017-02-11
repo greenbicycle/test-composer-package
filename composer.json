@@ -2,6 +2,7 @@
     "name": "greenbicycle/test-composer-package",
     "description": "Test Composer Package",
     "type": "project",
+    "version": "0.1.1",
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +10,15 @@
             "email": "jeff@greenbicycle.net"
         }
     ],
-    "require": {},
+    "repositories": [
+    {
+     "type": "vcs",
+     "url":  "git@bitbucket.org:manchineel/bitbucket-composer-package.git"
+    }
+    ],
+    "require": {
+        "manchineel/bitbucket-composer-package": "dev-master"
+    },
     "require-dev": {
         "phpunit/phpunit": "~5.5"
     },
