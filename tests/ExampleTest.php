@@ -16,8 +16,6 @@ class ExampleTest extends TestCase
         
         $this->assertTrue(is_object($a));
 
-        var_dump(Greenbicycle\GreenFoo\GreenFooTest::class);
-        
     }
 
     function __call($name, $arguments)
